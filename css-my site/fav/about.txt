@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Sans Khojki
+- Font Author: Copyright 2018 Google Inc. All Rights Reserved.
+- Font Source: http://fonts.gstatic.com/s/notosanskhojki/v15/-nFnOHM29Oofr2wohFbTuPPKVWpmK_d709jy92k.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

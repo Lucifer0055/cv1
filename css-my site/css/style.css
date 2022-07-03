@@ -1,0 +1,113 @@
+body{
+    background-color: #C7F6F5;
+}
+
+.top-box{
+    background-color:#C7F6F5;
+    position: relative;
+    padding-top: 190px;
+    
+}
+
+.mid-box {
+    
+    background-color: #C7F6F5;
+}
+
+.last-box {
+    background-color: #C7F6F5;
+    padding-bottom:20px;
+}
+
+body {
+    margin: 0%;
+        text-align: center;
+    }
+
+h1 {
+        margin: 0;
+        font-family: 'Sora', sans-serif;
+    }
+.top-cloud{
+    height: 170px;
+    position: absolute;
+    top:33px;
+    left: 900px;
+    
+}
+.bottom-cloud{
+    height: 170px;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
+
+.mountain{
+    height: 400px;
+}
+h2{
+    font-family: 'Caveat', cursive;
+}
+.prof-img{
+    height:230px;
+}
+.img-one{
+    height: 230px;
+}
+.img-th{
+    height: 230px;
+}
+
+.p-one{
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.p-sec{
+    font-family: 'Mukta', sans-serif;
+}
+
+.p-th{
+    font-family: 'Mukta', sans-serif;
+}
+
+.p-frt{
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.footer-link-one{
+font-family: 'Caveat',cursive;
+}
+
+.footer-link-two{
+font-family: 'Caveat',cursive;
+}
+.footer-link-th{
+font-family: 'Caveat',cursive;
+}
+
+.p-fiv{
+    font-family: 'Gentium Book Plus', serif;
+
+}
+.mail-cc{
+    font-family: 'Gentium Book Plus', serif;
+}
+.h2-sec{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.h2-one{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.h3-one{
+font-family: 'Kanit',sans-serif;
+}
+
+hr {
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5.5px;
+    width: 3.5%;
+}
