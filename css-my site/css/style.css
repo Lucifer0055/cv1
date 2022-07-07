@@ -1,11 +1,21 @@
 body{
     background-color: #C7F6F5;
+    margin: 0%;
+    text-align: center;
+}
+
+hr {
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5.5px;
+    width: 3.5%;
 }
 
 .top-box{
     background-color:#C7F6F5;
     position: relative;
-    padding-top: 190px;
+    padding-top: 140px;/* its for comment in css */
     
 }
 
@@ -15,44 +25,89 @@ body{
 }
 
 .last-box {
-    background-color: #C7F6F5;
-    padding-bottom:20px;
+    background-color:#66bfbf;
+    padding-bottom: 24px;
+    padding-top:20px;
+    margin-top:40px;
+}
+.skill{
+    margin-top: 30px;
+}
+.skill-row{
+    width: 70%;
+    margin: 50px auto 190px auto;
+    text-align:left;
+
+}
+.skill-rot{
+    width: 70%;
+    margin: 38px auto 150px auto;
+    text-align: left;
 }
 
-body {
-    margin: 0%;
-        text-align: center;
-    }
 
 h1 {
         margin: 0;
         font-family: 'Sora', sans-serif;
+        font-size: 3.3rem;
+        color: #3D61A8;
     }
 .top-cloud{
     height: 170px;
     position: absolute;
-    top:33px;
-    left: 900px;
+    top:38px;
+    left: 850px;
     
 }
 .bottom-cloud{
     height: 170px;
     position: absolute;
-    left: 100px;
+    left: 80px;
     bottom: 200px;
 }
 
 .mountain{
     height: 400px;
 }
-h2{
+.h2{
     font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    color: #132850;
+    font-weight: bold;
+}
+
+.h2-one{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2.1rem;
+    color: #132850;
+}
+
+.h2-sec{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2.1rem;
+    color: #132850;
+}
+
+.h2-th{
+    font-family: 'Gentium Book Plus', serif;
+    color: #132850;
+    font-size: 2.44rem;
+    font-weight: 350;
 }
 .prof-img{
     height:230px;
 }
 .img-one{
     height: 230px;
+    float: left;
+    margin-right: 25px;  
+}
+.img-sec{
+    float: right;
+    margin-left: 25px;
+    border-radius: 15px 15px 15px 15px;
+    width: 370px;
+    height: 220px
 }
 .img-th{
     height: 230px;
@@ -74,40 +129,69 @@ h2{
     font-family: 'Gentium Book Plus', serif;
 }
 
-.footer-link-one{
-font-family: 'Caveat',cursive;
-}
-
-.footer-link-two{
-font-family: 'Caveat',cursive;
-}
-.footer-link-th{
-font-family: 'Caveat',cursive;
-}
-
-.p-fiv{
+.p-fv{
+    margin-top:10px;
     font-family: 'Gentium Book Plus', serif;
+    font-size:0.855em;
+    color:#3a506b;
 
 }
 .mail-cc{
     font-family: 'Gentium Book Plus', serif;
 }
-.h2-sec{
-    font-family: 'Noto Sans JP', sans-serif;
-}
 
-.h2-one{
-    font-family: 'Noto Sans JP', sans-serif;
-}
 
 .h3-one{
-font-family: 'Kanit',sans-serif;
+    font-family: 'Kanit',sans-serif;
+    font-size: 1.7rem;
+    color: #313E99;
+
 }
 
-hr {
-    border-color: grey;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5.5px;
-    width: 3.5%;
+.h3-two{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7rem;
+    color: #313E99;
+}
+.h3-th{
+    font-weight: 110;
+}
+
+.footer-link{
+    
+    font-family: 'Caveat', cursive;
+    font-size:1.2em;
+    margin:20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color:#EAF6F6;
+}
+    
+.btn {
+    background: #48bfe3;
+    background-image: -webkit-linear-gradient(top, #48bfe3, #5e60ce);
+    background-image: -moz-linear-gradient(top, #48bfe3, #5e60ce);
+    background-image: -ms-linear-gradient(top, #48bfe3, #5e60ce);
+    background-image: -o-linear-gradient(top, #48bfe3, #5e60ce);
+    background-image: linear-gradient(to bottom, #48bfe3, #5e60ce);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Arial;
+    color: ffffff;
+    font-size: 18px;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #1a759f);
+    background-image: -moz-linear-gradient(top, #30e3cb, #1a759f);
+    background-image: -ms-linear-gradient(top, #30e3cb, #1a759f);
+    background-image: -o-linear-gradient(top, #30e3cb, #1a759f);
+    background-image: linear-gradient(to bottom, #30e3cb, #1a759f);
+    text-decoration: none;
 }
